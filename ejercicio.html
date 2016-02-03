@@ -1,0 +1,76 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu primera_pagina_web</title>
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+
+	}
+	.container{
+		width: 700px;
+		margin: 0 auto;
+		position: relative;
+	}
+	li{
+		list-style: none;
+		display: inline-block;
+		font-family: Verdana;
+		font-size: 15px;
+		margin: 5px;
+	}
+	
+	#linea_horizontal{
+		background-color: black;
+		height: 1px;
+		width: 100%;
+	}
+	#navigation{
+		text-align: center;
+	}
+	#linea_vertical{
+		height: 10px;
+		display: inline-block;
+	}
+	.tamano_foto img{
+		width: 100%;
+		height: 500px;
+		position: relative;
+		
+	}
+	.redondo{
+		border: 2px solid grey;
+		margin: 0;
+		padding: 0;
+		border-radius: 800px;
+		overflow: hidden;
+	
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div id="logo"> 
+			<img src="img/img.png">
+		</div>
+		<ul id="navigation">
+			<hr id="linea_horizontal">
+			<li>Inico</li><hr id="linea_vertical">
+			<li>Sobre Nosotros</li><hr id="linea_vertical">
+			<li>Nuestras   Coders</li><hr id="linea_vertical">
+			<li>Contacto</li><hr id="linea_horizontal">
+		</ul>
+		<div class="tamano_foto">
+			<img src="img/grupal.jpg">
+		</div>
+		<div>
+			<img class="redondo" src="inspiration/pro.jpg" class="tamano_foto">
+		</div>
+	</div>
+
+	
+
+
+</body>
+</html>
