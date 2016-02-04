@@ -1,0 +1,76 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+
+	}
+	.container{
+		width: 700px;
+		margin: 0 auto;
+		position: relative;
+	}
+	li{
+		list-style: none;
+		display: inline-block;
+		font-family: Verdana;
+		font-size: 15px;
+		margin: 5px;
+	}
+	
+	#linea_horizontal{
+		background-color: black;
+		height: 1px;
+		width: 100%;
+	}
+	#navigation{
+		text-align: center;
+	}
+	#linea_vertical{
+		height: 10px;
+		display: inline-block;
+	}
+	.tamano_foto img{
+		width: 100%;
+		height: 500px;
+		position: relative;	
+	}
+	.redondo{
+		border: 2px solid black;
+		border-radius: 800px;
+		overflow: hidden;
+	}
+	#parrafo_central{
+		text-align: center;
+		font-family: cursive;
+		font-size: 20px;
+		padding: 20px;
+	}
+	#linea_pequena{
+		background-color: black;
+		height: 1px;
+		width: 20%;
+		margin: 15px;
+		position: center;
+		margin-left: 45%;
+	
+	}
+	#span_carac{
+		font-weight: bold;
+		font-family: sans-serif;
+		font-size: 40px;
+	}
+	#contenedor_img{
+		width: 100%;
+		height: 100px;
+	}
+	#contenedor_img{
+		height: 500px;
+		width: 500px;
+
+
+	}
+	#imagens_cicrulares{
+		width: 200px;
+		height:200px;
+		border-radius: 100%;
+		display: inline-block;
+	}

@@ -1,0 +1,52 @@
+.conten{
+		width: 800px;
+		margin: 0 auto;
+		position: relative;
+	}
+	#redondo{
+		margin: 3px solid green;
+		border-radius: 50%;
+		height: 300px;
+		width: 25%;
+		margin-left: 40%;
+		border-color: blue;
+
+	}
+	p{
+		text-align: center;
+	}
+	.box_gris{
+		width: 80%;
+		height: 60px;
+		background-color: #19F73E;
+		margin: 20px;
+	}
+	#box2_largo{
+		width: 60%;
+
+	}
+	#box3_largo{
+		width: 40%;
+
+	}
+	#margin_cajas{
+		padding: 20px;
+		text-align: left;
+		font-family: tahoma;
+	}
+	.content_picture{
+		height: 300px;
+		width: 100%;
+	}
+	#caract_picture{
+		height: 300px;
+		width: 30%;
+		border:3px solid green;
+
+		border-radius:50%;
+
+		}
+		body
+		{
+			background-color: green;
+		}

@@ -2,72 +2,70 @@
 <html>
 <head>
 	<title>Menu primera_pagina_web</title>
-	<style type="text/css">
-	*{
-		margin: 0px;
-		padding: 0px;
-
-	}
-	.container{
-		width: 700px;
-		margin: 0 auto;
-		position: relative;
-	}
-	li{
-		list-style: none;
-		display: inline-block;
-		font-family: Verdana;
-		font-size: 15px;
-		margin: 5px;
-	}
-	
-	#linea_horizontal{
-		background-color: black;
-		height: 1px;
-		width: 100%;
-	}
-	#navigation{
-		text-align: center;
-	}
-	#linea_vertical{
-		height: 10px;
-		display: inline-block;
-	}
-	.tamano_foto img{
-		width: 100%;
-		height: 500px;
-		position: relative;
-		
-	}
-	.redondo{
-		border: 2px solid grey;
-		margin: 0;
-		padding: 0;
-		border-radius: 800px;
-		overflow: hidden;
-	
-	}
-	</style>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/ejercicio.css">
 </head>
 <body>
 	<div class="container">
 		<div id="logo"> 
 			<img src="img/img.png">
 		</div>
+		<!-- menu -->
 		<ul id="navigation">
 			<hr id="linea_horizontal">
-			<li>Inico</li><hr id="linea_vertical">
-			<li>Sobre Nosotros</li><hr id="linea_vertical">
-			<li>Nuestras   Coders</li><hr id="linea_vertical">
-			<li>Contacto</li><hr id="linea_horizontal">
+
+			<li>
+				<a href="https://github.com/MishelMartinez/lenguajeWeb">Inicio </a>
+				<hr id="linea_vertical">
+			</li>
+
+			<li>
+				<a href="ejercicio.html#laboratoria"> Sobre nosotros</a>
+			<hr id="linea_vertical">
+			</li>
+
+			<li>
+				<a href="ejercicio.html#interno"> Nuestras coders</a>
+			<hr id="linea_vertical">
+			</li>
+
+			<li>
+				<a href=""> Contacto</a>
+			<hr id="linea_vertical">
+			</li>
+				
 		</ul>
+		<!-- FIN del menu -->
 		<div class="tamano_foto">
 			<img src="img/grupal.jpg">
 		</div>
-		<div>
-			<img class="redondo" src="inspiration/pro.jpg" class="tamano_foto">
+			<!--SOBRE NOSOTRAS -->
+		<hr id="linea_pequena">		<p id="parrafo_central"><a name="laboratoria">Laboratoria</a> existe para encontrar jovenes mujeres con potencial pero sin acceso a educacion superior de calidad y transformarlas en talentosas desarrolladoras webm que sirven clientes locales e internacionales con soluciones digitales de excelente calidad.</p><hr id="linea_pequena">	
+
+		<!--SECCION NUESTRAS CODERS -->
+		<!-- IMAGEN...... -->
+		<div  >
+			<img class="redondo" src="inspiration/pro.jpg" >
 		</div>
+		<!-- FIN IMAGEN...... -->
+		<!-- IMAGENES ...... -->
+
+		<a name="interno"><span id="span_carac"> Nuestras coders</span></a>
+
+		<div id="contedor_img">		
+				<img src="inspiration/uno.jpg " id="imagens_cicrulares"alt="wozniak">
+				<a href="link_uno.html#externo" >
+				<img src="inspiration/dos.png" id="imagens_cicrulares" alt="linux">
+				</a>
+				<img src="inspiration/tres.jpg" id="imagens_cicrulares" alt="linux">
+		</div>
+	<!--  FIN DE IMAGENES...... -->
+		
+
+
+
 	</div>
+	
 
 	
 
